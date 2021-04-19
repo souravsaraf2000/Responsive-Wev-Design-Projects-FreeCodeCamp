@@ -1,0 +1,54 @@
+#project-2{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+#title{
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}
+#description{
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#survey-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #262646;
+    padding: 30px 0px;
+}
+#dropdown{
+    color: rgba(0,0,0,0.7);
+    margin-right: 0;
+}
+span{
+    font-size: 14px;
+}
+#name,#email,#number,#dropdown,textarea,#submit{
+    display: block;
+    margin: 20px 0px;
+    width: 90%;
+}
+input,select,textarea{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#dropdown,textarea{
+    box-sizing: border-box;
+}
+#survey-form div{
+    width: 90%;
+    margin: 0px auto;
+    padding-left: 25px;
+}
+#submit{
+    padding: 10px 0px;
+    background-color: #3b6;
+    color: #fff;
+}
