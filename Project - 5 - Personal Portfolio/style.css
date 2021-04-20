@@ -1,0 +1,152 @@
+*{
+    font-family: Lato,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: #be3144;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#elements{
+    float: right;
+}
+#elements ul{
+    list-style-type: none;
+}
+#elements ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding-right: 30px;
+}
+#elements ul li{
+    float: left;
+    padding: 20px 0px;
+}
+#welcome-section{
+    background: linear-gradient(to right,#36383b,#212124);
+    height: 100vh;
+    text-align: center;
+}
+#welcome-section h1{
+    color: #fff;
+    padding-top: 300px;
+    font-size: 52px;
+    font-weight: 500;
+}
+#welcome-section h1:last-child{
+    color: #be3144;
+    font-size: 36px;
+    padding-top: 15px;
+    font-weight: 100;
+}
+#projects{
+    text-align: center;
+    background-color: #45567d;
+    height: 95vh;
+}
+#projects h1{
+    margin: 0 auto;
+    width: 45%;
+    color: #fff;
+    font-size: 44px;
+    border-bottom: 2px solid #fff;
+    padding-top: 30px;
+}
+#images{
+    width: 90vw;
+    margin: 0 auto;
+}
+.project-tile{
+    padding-top: 40px;
+    display: inline-block;
+}
+.project-tile img{
+    height: 350px;
+    width: 350px;
+    padding-right: 35px;
+    margin-bottom: 0;
+}
+.project-tile p{
+    background-color: #303841;
+    color: white;
+    width: 350px;
+    padding: 20px 0px;
+    margin-top: 0;
+    font-size: 24px;
+}
+.project-tile span{
+    color: #303841;
+}
+.project-tile:hover span{
+    color: orangered;
+    transition: color 0.3s ease-out;
+}
+.project-tile a{
+    text-decoration: none;
+}
+#profile-link{
+    display: block;
+    background-color: #303841;
+    color: white;
+    width: 150px;
+}
+#button{
+    margin: 50px auto;
+    width: 150px;
+}
+#button a{
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#contact{
+    height: 70vh;
+    background-color: #303841;
+    text-align: center;
+    color: #fff;
+}
+#options{
+    padding-top: 35px;
+}
+#options p{
+    display: inline-block;
+}
+#contact h1{
+    font-size: 44px;
+    padding-top: 150px;
+}
+#contact p{
+    font-size: 18px;
+    padding: 20px;
+    font-size: 24px;
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+}
+#options a{
+    font-size: 24px;
+}
+#options p:hover{
+    transform: translateY(10px);
+    transition: transform 1s ease-out;
+}
+@media screen and (max-width: 900px){
+    #welcome-section{
+        height: 70vh;
+    }
+    #projects{
+        height: 60vh;
+    }
+    #projects h1{
+        font-size: 28px;
+        width: 60%;
+    }
+    #contact{
+        height: 40vh;
+    }
+}
