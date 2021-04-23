@@ -19,18 +19,24 @@
             <i>Thank you for taking the time to help us improve the platform</i>
         </p>
         <form id="survey-form">
+            <label id="name-label">Name</label>
             <div>
-                <label id="name-label">Name</label>
                 <input type="text" id="name" placeholder="Enter your name" required>
-                <label id="email-label">Email</label>
+            </div>
+            <label id="email-label">Email</label>
+            <div>
                 <input type="email" name="" id="email" placeholder="Enter your Email" required>
-                <label id="number-label">
-                    Age (Optional)
-                </label>
+            </div>
+            <label id="number-label">
+                Age (Optional)
+            </label>
+            <div>
                 <input type="number" name="" id="number" placeholder="Age" min="1" max="100">
-                <p>
-                    Which option best describes your current role?
-                </p>
+            </div>
+            <p>
+                Which option best describes your current role?
+            </p>
+            <div >
                 <select name="dropdown" id="dropdown">
                     <option value="default" disabled selected>Select Current Role</option>
                     <option value="student">Student</option>
@@ -39,15 +45,19 @@
                     <option value="no">Prefer Not to Say</option>
                     <option value="oth">Others</option>
                 </select>
-                <p>
-                    Would you recommend freeCodeCamp to a friend?
-                </p>
+            </div>
+            <p>
+                Would you recommend freeCodeCamp to a friend?
+            </p>
+            <div>
                 <input type="radio" name="rec" id="" value="definitely"> Definitely <br>
                 <input type="radio" name="rec" id="" value="maybe"> Maybe <br>
                 <input type="radio" name="rec" id="" value="not-sure"> Not Sure <br>
-                <p id="disp">
-                    What would you like to see improved? <span>(Check all that apply)</span>
-                </p>
+            </div>
+            <p id="disp">
+                What would you like to see improved? <span>(Check all that apply)</span>
+            </p>
+            <div>
                 <input type="checkbox" name="improvement" id="" value="fep"> Front-End Projects <br>
                 <input type="checkbox" name="improvement" id="" value="bep"> Back-End Projects <br>
                 <input type="checkbox" name="improvement" id="" value="dv"> Data Visualization <br>
@@ -59,10 +69,14 @@
                 <input type="checkbox" name="improvement" id="" value="wiki"> Wiki <br>
                 <input type="checkbox" name="improvement" id="" value="forum"> Forum <br>
                 <input type="checkbox" name="improvement" id="" value="ac"> Additional Courses <br>
-                <p>
-                    Any comments or suggestions?
-                </p>
+            </div>
+            <p>
+                Any comments or suggestions?
+            </p>
+            <div>
                 <textarea name="" id="" cols="20" rows="5" placeholder="Enter your comment here ...."></textarea>
+            </div>
+            <div id="button">
                 <input type="submit" id="submit" value="Submit">
             </div>
         </form>
