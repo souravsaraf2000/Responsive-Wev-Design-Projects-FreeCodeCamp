@@ -97,13 +97,15 @@
     width: 150px;
 }
 #button{
+    /* margin: 50px auto; */
+    width: 200px;
     margin: 50px auto;
-    width: 150px;
 }
 #button a{
     padding: 20px;
     font-size: 18px;
     text-decoration: none;
+    text-align: center;
 }
 #contact{
     height: 500px;
@@ -140,27 +142,32 @@
 }
 @media screen and (max-width: 900px){
     #welcome-section{
-        height: 70vh;
+        height: 700px;
+    }
+    #navbar{
+        text-align: center;
     }
     #elements{
-        float: left;
-        padding-left: 300px;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 303px;
+    }
+    #elements li:last-child a{
+        padding-right: 0;
     }
     #projects{
-        height: 55vh;
+        height: 1200px;
     }
     #projects h1{
         font-size: 28px;
         width: 60%;
     }
     #contact{
-        height: 40vh;
+        height: 600px;
     }
 }
 @media screen and (max-width: 400px){
-    #elements{
-        padding-left: 70px;
-    }
     #welcome-section{
         height: 700px;
     }
@@ -168,9 +175,13 @@
         height: 1200px;
     }
     #contact{
-        height: 600px;
+        height: 700px;
     }
     .project-tile img{
         padding-right: 0px;
+        width: 90vw;
+    }
+    .project-tile p{
+        width: 90vw;
     }
 }
